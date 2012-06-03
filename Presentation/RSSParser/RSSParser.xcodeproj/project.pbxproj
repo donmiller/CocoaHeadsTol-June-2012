@@ -1,0 +1,234 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63636411149BCAAA00FDD29B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63636410149BCAAA00FDD29B /* Foundation.framework */; };
+		63636414149BCAAA00FDD29B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63636413149BCAAA00FDD29B /* main.m */; };
+		6363642B149BCDDB00FDD29B /* Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6363642A149BCDDB00FDD29B /* Parser.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6363640A149BCAA900FDD29B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6363640C149BCAA900FDD29B /* RSSParser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RSSParser; sourceTree = BUILT_PRODUCTS_DIR; };
+		63636410149BCAAA00FDD29B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		63636413149BCAAA00FDD29B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63636416149BCAAA00FDD29B /* RSSParser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RSSParser-Prefix.pch"; sourceTree = "<group>"; };
+		63636417149BCAAA00FDD29B /* RSSParser.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = RSSParser.1; sourceTree = "<group>"; };
+		63636429149BCDDB00FDD29B /* Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parser.h; sourceTree = "<group>"; };
+		6363642A149BCDDB00FDD29B /* Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parser.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63636409149BCAA900FDD29B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63636411149BCAAA00FDD29B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63636401149BCAA900FDD29B = {
+			isa = PBXGroup;
+			children = (
+				63636412149BCAAA00FDD29B /* RSSParser */,
+				6363640F149BCAA900FDD29B /* Frameworks */,
+				6363640D149BCAA900FDD29B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6363640D149BCAA900FDD29B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6363640C149BCAA900FDD29B /* RSSParser */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6363640F149BCAA900FDD29B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63636410149BCAAA00FDD29B /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63636412149BCAAA00FDD29B /* RSSParser */ = {
+			isa = PBXGroup;
+			children = (
+				63636413149BCAAA00FDD29B /* main.m */,
+				63636417149BCAAA00FDD29B /* RSSParser.1 */,
+				63636415149BCAAA00FDD29B /* Supporting Files */,
+				63636429149BCDDB00FDD29B /* Parser.h */,
+				6363642A149BCDDB00FDD29B /* Parser.m */,
+			);
+			path = RSSParser;
+			sourceTree = "<group>";
+		};
+		63636415149BCAAA00FDD29B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63636416149BCAAA00FDD29B /* RSSParser-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6363640B149BCAA900FDD29B /* RSSParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6363641A149BCAAA00FDD29B /* Build configuration list for PBXNativeTarget "RSSParser" */;
+			buildPhases = (
+				63636408149BCAA900FDD29B /* Sources */,
+				63636409149BCAA900FDD29B /* Frameworks */,
+				6363640A149BCAA900FDD29B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSSParser;
+			productName = RSSParser;
+			productReference = 6363640C149BCAA900FDD29B /* RSSParser */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63636403149BCAA900FDD29B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 63636406149BCAA900FDD29B /* Build configuration list for PBXProject "RSSParser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 63636401149BCAA900FDD29B;
+			productRefGroup = 6363640D149BCAA900FDD29B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6363640B149BCAA900FDD29B /* RSSParser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63636408149BCAA900FDD29B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63636414149BCAAA00FDD29B /* main.m in Sources */,
+				6363642B149BCDDB00FDD29B /* Parser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		63636418149BCAAA00FDD29B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		63636419149BCAAA00FDD29B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6363641B149BCAAA00FDD29B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSSParser/RSSParser-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6363641C149BCAAA00FDD29B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSSParser/RSSParser-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63636406149BCAA900FDD29B /* Build configuration list for PBXProject "RSSParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63636418149BCAAA00FDD29B /* Debug */,
+				63636419149BCAAA00FDD29B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6363641A149BCAAA00FDD29B /* Build configuration list for PBXNativeTarget "RSSParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6363641B149BCAAA00FDD29B /* Debug */,
+				6363641C149BCAAA00FDD29B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63636403149BCAA900FDD29B /* Project object */;
+}

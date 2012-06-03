@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'RSSParser' target in the 'RSSParser' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
