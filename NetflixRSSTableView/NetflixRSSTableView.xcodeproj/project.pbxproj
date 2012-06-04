@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63D736E0157C189500CEDEF0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D736DF157C189500CEDEF0 /* UIKit.framework */; };
+		63D736E2157C189500CEDEF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D736E1157C189500CEDEF0 /* Foundation.framework */; };
+		63D736E4157C189500CEDEF0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D736E3157C189500CEDEF0 /* CoreGraphics.framework */; };
+		63D736EA157C189500CEDEF0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63D736E8157C189500CEDEF0 /* InfoPlist.strings */; };
+		63D736EC157C189500CEDEF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D736EB157C189500CEDEF0 /* main.m */; };
+		63D736F0157C189500CEDEF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D736EF157C189500CEDEF0 /* AppDelegate.m */; };
+		63D736F3157C189500CEDEF0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63D736F1157C189500CEDEF0 /* MainStoryboard.storyboard */; };
+		63D736F6157C189500CEDEF0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D736F5157C189500CEDEF0 /* ViewController.m */; };
+		63D736FE157C1F2300CEDEF0 /* Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D736FD157C1F2300CEDEF0 /* Parser.m */; };
+		63D73706157C2AB600CEDEF0 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D73705157C2AB600CEDEF0 /* DetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		63D736DB157C189500CEDEF0 /* NetflixRSSTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetflixRSSTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D736DF157C189500CEDEF0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		63D736E1157C189500CEDEF0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		63D736E3157C189500CEDEF0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		63D736E7157C189500CEDEF0 /* NetflixRSSTableView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NetflixRSSTableView-Info.plist"; sourceTree = "<group>"; };
+		63D736E9157C189500CEDEF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		63D736EB157C189500CEDEF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63D736ED157C189500CEDEF0 /* NetflixRSSTableView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NetflixRSSTableView-Prefix.pch"; sourceTree = "<group>"; };
+		63D736EE157C189500CEDEF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		63D736EF157C189500CEDEF0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		63D736F2157C189500CEDEF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		63D736F4157C189500CEDEF0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		63D736F5157C189500CEDEF0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		63D736FC157C1F2300CEDEF0 /* Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parser.h; sourceTree = "<group>"; };
+		63D736FD157C1F2300CEDEF0 /* Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parser.m; sourceTree = "<group>"; };
+		63D73704157C2AB600CEDEF0 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		63D73705157C2AB600CEDEF0 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63D736D8157C189500CEDEF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D736E0157C189500CEDEF0 /* UIKit.framework in Frameworks */,
+				63D736E2157C189500CEDEF0 /* Foundation.framework in Frameworks */,
+				63D736E4157C189500CEDEF0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63D736D0157C189500CEDEF0 = {
+			isa = PBXGroup;
+			children = (
+				63D736E5157C189500CEDEF0 /* NetflixRSSTableView */,
+				63D736DE157C189500CEDEF0 /* Frameworks */,
+				63D736DC157C189500CEDEF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63D736DC157C189500CEDEF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63D736DB157C189500CEDEF0 /* NetflixRSSTableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63D736DE157C189500CEDEF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63D736DF157C189500CEDEF0 /* UIKit.framework */,
+				63D736E1157C189500CEDEF0 /* Foundation.framework */,
+				63D736E3157C189500CEDEF0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63D736E5157C189500CEDEF0 /* NetflixRSSTableView */ = {
+			isa = PBXGroup;
+			children = (
+				63D736FF157C1F2800CEDEF0 /* Parser */,
+				63D736EE157C189500CEDEF0 /* AppDelegate.h */,
+				63D736EF157C189500CEDEF0 /* AppDelegate.m */,
+				63D736F1157C189500CEDEF0 /* MainStoryboard.storyboard */,
+				63D736F4157C189500CEDEF0 /* ViewController.h */,
+				63D736F5157C189500CEDEF0 /* ViewController.m */,
+				63D736E6157C189500CEDEF0 /* Supporting Files */,
+				63D73704157C2AB600CEDEF0 /* DetailViewController.h */,
+				63D73705157C2AB600CEDEF0 /* DetailViewController.m */,
+			);
+			path = NetflixRSSTableView;
+			sourceTree = "<group>";
+		};
+		63D736E6157C189500CEDEF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63D736E7157C189500CEDEF0 /* NetflixRSSTableView-Info.plist */,
+				63D736E8157C189500CEDEF0 /* InfoPlist.strings */,
+				63D736EB157C189500CEDEF0 /* main.m */,
+				63D736ED157C189500CEDEF0 /* NetflixRSSTableView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63D736FF157C1F2800CEDEF0 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				63D736FC157C1F2300CEDEF0 /* Parser.h */,
+				63D736FD157C1F2300CEDEF0 /* Parser.m */,
+			);
+			name = Parser;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63D736DA157C189500CEDEF0 /* NetflixRSSTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63D736F9157C189500CEDEF0 /* Build configuration list for PBXNativeTarget "NetflixRSSTableView" */;
+			buildPhases = (
+				63D736D7157C189500CEDEF0 /* Sources */,
+				63D736D8157C189500CEDEF0 /* Frameworks */,
+				63D736D9157C189500CEDEF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetflixRSSTableView;
+			productName = NetflixRSSTableView;
+			productReference = 63D736DB157C189500CEDEF0 /* NetflixRSSTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63D736D2157C189500CEDEF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 63D736D5157C189500CEDEF0 /* Build configuration list for PBXProject "NetflixRSSTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 63D736D0157C189500CEDEF0;
+			productRefGroup = 63D736DC157C189500CEDEF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63D736DA157C189500CEDEF0 /* NetflixRSSTableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63D736D9157C189500CEDEF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D736EA157C189500CEDEF0 /* InfoPlist.strings in Resources */,
+				63D736F3157C189500CEDEF0 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63D736D7157C189500CEDEF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D736EC157C189500CEDEF0 /* main.m in Sources */,
+				63D736F0157C189500CEDEF0 /* AppDelegate.m in Sources */,
+				63D736F6157C189500CEDEF0 /* ViewController.m in Sources */,
+				63D736FE157C1F2300CEDEF0 /* Parser.m in Sources */,
+				63D73706157C2AB600CEDEF0 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		63D736E8157C189500CEDEF0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63D736E9157C189500CEDEF0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		63D736F1157C189500CEDEF0 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63D736F2157C189500CEDEF0 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63D736F7157C189500CEDEF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		63D736F8157C189500CEDEF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63D736FA157C189500CEDEF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetflixRSSTableView/NetflixRSSTableView-Prefix.pch";
+				INFOPLIST_FILE = "NetflixRSSTableView/NetflixRSSTableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		63D736FB157C189500CEDEF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetflixRSSTableView/NetflixRSSTableView-Prefix.pch";
+				INFOPLIST_FILE = "NetflixRSSTableView/NetflixRSSTableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63D736D5157C189500CEDEF0 /* Build configuration list for PBXProject "NetflixRSSTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D736F7157C189500CEDEF0 /* Debug */,
+				63D736F8157C189500CEDEF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63D736F9157C189500CEDEF0 /* Build configuration list for PBXNativeTarget "NetflixRSSTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D736FA157C189500CEDEF0 /* Debug */,
+				63D736FB157C189500CEDEF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63D736D2157C189500CEDEF0 /* Project object */;
+}
